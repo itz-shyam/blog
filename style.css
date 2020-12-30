@@ -1,8 +1,52 @@
 body{
     text-align: center;
-    background-color: aquamarine;
-    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="36" height="72" viewBox="0 0 36 72"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')
+    background: linear-gradient( lightblue 0%,darkblue 100%);
+	
 }
-#pb{
-    background-color: brown;
+
+img{
+  border-radius:50%;
+  width:100px;
+}
+
+h2{
+  font-size:20px;
+  color:darkblue;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+#bio{
+    padding:20px;
+    font-size:18;
+    text-align:center;
+}
+.unord{
+    list-style: none;
+    position: fixed;
+    cursor: pointer;
+    z-index: 10;
+    top: 10px;
+    right: 10px;
+}
+.lii{
+    padding: 5px;
+    background-color: coral;
+    font-family: fantasy;
+    font-size: 20px;
+    float: left;
+}
+.lii:hover{
+    background-color: darkturquoise;
+    font-size: 25px;
+    font-family: 'Skranji', cursive;
+}
+a{
+    text-decoration: none
+}
+.wrote_by_tim:hover{
+    color:aqua;
 }
